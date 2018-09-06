@@ -12,7 +12,7 @@ const handleForm = function(event) {
   const category = event.target.category.value;
 
   const newBook = document.createElement('p');
-  newBook.textContent = `Title: ${title}, Author: ${author}, Category: ${category}`;
+  newBook.textContent = `Title: ${title} \r\nAuthor: ${author} \r\nCategory: ${category}`;
   newBook.classList.add('bookItem')
   const info = document.querySelector('#reading-list');
   info.appendChild(newBook);

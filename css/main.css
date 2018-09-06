@@ -1,3 +1,21 @@
 body {
   font-family: Palatino;
+  background-color: whitesmoke;
+  color: midnightblue;
+
+}
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bookItem {
+  width: fit-content;
+  border: 1px solid cadetblue ;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+  white-space: pre;
 }
